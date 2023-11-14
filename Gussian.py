@@ -1,11 +1,13 @@
 # Define the desired distribution to sample from:
+
 d = 2 # Number of dimensions
 mean = np.matrix([[0.], [1.]])
 covariance = np.matrix([
 [1, 0.8],
 [0.8, 1]
 ])
- 
+
+
 # Compute the Decomposition:
 A = np.linalg.cholesky(covariance)
  
