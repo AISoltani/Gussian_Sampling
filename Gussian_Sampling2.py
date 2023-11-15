@@ -25,7 +25,6 @@ def get_gradient(w, x, y):
     gradient = -(1.0/len(x)) * error.dot(x)
     return gradient, mse
 
-
 w = np.random.randn(2)
 alpha = 0.5
 tolerance = 1e-5
