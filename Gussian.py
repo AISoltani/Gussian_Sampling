@@ -7,7 +7,6 @@ covariance = np.matrix([
 [0.8, 1]
 ])
 
-
 # Compute the Decomposition:
 A = np.linalg.cholesky(covariance)
  
