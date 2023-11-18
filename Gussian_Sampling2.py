@@ -17,7 +17,6 @@ test_y = data_y[order[:portion]]
 train_x = data_x[order[portion:]]
 train_y = data_y[order[portion:]]
 
-
 def get_gradient(w, x, y):
     y_estimate = x.dot(w).flatten()
     error = (y.flatten() - y_estimate)
