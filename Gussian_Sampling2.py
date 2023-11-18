@@ -31,6 +31,7 @@ tolerance = 1e-5
 
 # Perform Gradient Descent
 iterations = 1
+
 while True:
     gradient, error = get_gradient(w, train_x, train_y)
     new_w = w - alpha * gradient
