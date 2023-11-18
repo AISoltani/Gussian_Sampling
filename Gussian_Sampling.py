@@ -18,7 +18,6 @@ def get_gaussian_random():
 
     return gaussian
 
-
 def learn_mean_cov(pts):
     learned_mean = np.matrix([[0.0], [0.0]])
     learned_cov = np.zeros((2, 2))
