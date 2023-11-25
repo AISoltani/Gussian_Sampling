@@ -44,7 +44,6 @@ def generate_known_gaussian(dimensions, count):
 
     return ret
 
-
 def sample(count, c):
     known = generate_known_gaussian(2, count)
     target_mean = np.matrix([[2.0], [8.0]])
@@ -74,9 +73,9 @@ def sample(count, c):
         ax.plot_surface(X, Y, Z)
     #    fig.show()
     return tweaked_all
+    
 known = generate_known_gaussian(2,100)
 data = np.asarray(known)
-
 np.random.seed(0)
 x = np.random.rand(100, 1)
 y = 2 + 3 * x + np.random.rand(100, 1)
