@@ -88,5 +88,4 @@ ax.set_ylabel(r't1')
 ax.set_zlabel(r'cost')
 ax.view_init(elev=25, azim=40)
 ax.plot_surface(w0, w1, J_vals, cmap=cm.rainbow)
-
 plt.show()
