@@ -1,4 +1,4 @@
-# Define the desired distribution to sample from:
+# Define the desired distribution to sample from
 
 d = 2 # Number of dimensions
 mean = np.matrix([[0.], [1.]])
