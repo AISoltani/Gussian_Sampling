@@ -89,11 +89,9 @@ Ax1 = np.random.multivariate_normal(mean1, cov1, 100)
 temps = data[:, 0]
 rentals = data[:, 1]
 
-
 plt.scatter(temps, rentals, marker='x', color='red')
 plt.xlabel('Normalized Temperature in C')
 plt.ylabel('Bike Rentals in 1000s')
-
 
 def compute_cost(X, y, theta):
     return np.sum(np.square(np.matmul(X, theta) - y)) / (2 * len(y))
@@ -106,7 +104,6 @@ cost = compute_cost(X, y, theta)
 
 print('theta:', theta)
 print('cost:', cost)
-
 
 def gradient_descent(X, y, alpha, iterations):
     theta = np.zeros(2)
