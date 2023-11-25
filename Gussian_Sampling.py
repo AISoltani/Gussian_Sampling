@@ -116,7 +116,6 @@ def gradient_descent(X, y, alpha, iterations):
 
     return theta
 
-
 iterations = 5000
 alpha = 0.1
 
