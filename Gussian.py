@@ -1,4 +1,5 @@
 # Define the desired distribution to sample from
+# GUSSIAN SAMPLING...
 
 d = 2 # Number of dimensions
 mean = np.matrix([[0.], [1.]])
