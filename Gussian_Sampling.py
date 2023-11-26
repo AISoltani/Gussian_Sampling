@@ -68,7 +68,6 @@ def sample(count, c):
         fig = plt.figure()
         ax = fig.add_subplot(111, projection='3d')
         ax.plot_surface(X, Y, Z)
-    #    fig.show()
     return tweaked_all
     
 known = generate_known_gaussian(2,100)
@@ -110,7 +109,6 @@ def gradient_descent(X, y, alpha, iterations):
         t0 = theta[0] - (alpha / m) * np.sum(np.dot(X, theta) - y)
         t1 = theta[1] - (alpha / m) * np.sum((np.dot(X, theta) - y) * X[:, 1])
         theta = np.array([t0, t1])
-
     return theta
 
 iterations = 5000
