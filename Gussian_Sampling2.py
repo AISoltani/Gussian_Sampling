@@ -44,7 +44,6 @@ while True:
     if iterations % 100 == 0:
         print
         "Iteration: %d - Error: %.4f" % (iterations, error)
-
     iterations += 1
     w = new_w
 
