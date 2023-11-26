@@ -15,7 +15,6 @@ def get_gaussian_random():
     numbers = np.random.random(int(m))
     summation = float(np.sum(numbers))
     gaussian = (summation - m / 2) / math.sqrt(m / 12.0)
-
     return gaussian
 
 def learn_mean_cov(pts):
@@ -39,9 +38,7 @@ def generate_known_gaussian(dimensions, count):
         for j in range(dimensions):
             g = get_gaussian_random()
             current_vector.append(g)
-
         ret.append(tuple(current_vector))
-
     return ret
 
 def sample(count, c):
