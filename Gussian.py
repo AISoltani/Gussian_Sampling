@@ -3,6 +3,8 @@
 
 # Import Libraries
 
+import matplotlib.pyplot as plt
+import numpy as np
 
 d = 2 # Number of dimensions
 mean = np.matrix([[0.], [1.]])
