@@ -1,6 +1,6 @@
 # Define the desired distribution to sample from
 # GUSSIAN SAMPLING...
-
+# Import Libraries
 d = 2 # Number of dimensions
 mean = np.matrix([[0.], [1.]])
 covariance = np.matrix([
