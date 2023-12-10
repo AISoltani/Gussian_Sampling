@@ -77,6 +77,7 @@ plt.title("Contour Plot of Cost Function")
 plt.xlabel("w0")
 plt.ylabel("w1")
 plt.legend(loc='best')
+
 fig = plt.figure(figsize=(7, 7))
 ax = fig.gca(projection="3d")
 ax.set_xlabel(r't0')
