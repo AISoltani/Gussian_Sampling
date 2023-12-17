@@ -8,8 +8,7 @@ Gaussian sampling generation in Python refers to the process of generating rando
 
 To generate Gaussian samples in Python, you can use the numpy.random.normal() function. Here is an example:
 
-python
-Copy
+```bash
 import numpy as np
 
 # Set the mean and standard deviation of the Gaussian distribution
@@ -21,6 +20,7 @@ samples = np.random.normal(mean, std_dev, 100)
 
 # Print the generated samples
 print(samples)
+```
 In the above code, the numpy.random.normal() function takes three arguments: the mean, standard deviation, and the number of samples to generate. It returns an array of random numbers drawn from the specified Gaussian distribution.
 
 You can customize the mean and standard deviation values based on your requirements. Additionally, you can generate different numbers of samples by changing the third argument of the numpy.random.normal() function.
